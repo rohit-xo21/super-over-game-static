@@ -1,0 +1,105 @@
+
+* {
+  font-family: 'Poppins';
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+#logo {
+  margin-top: 20px;
+  display: block;
+  margin: auto;
+  width: 10vw;
+   height: auto;
+   margin-bottom: 70px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.balls{
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.ball {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 5px;
+  color: black;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px;
+  align-content: center;
+}
+
+#team1{
+  background-color: rgb(0, 95, 162);
+  border-radius: 15px;
+}
+
+#team2{
+  background-color: rgb(31, 168, 61);
+  border-radius: 15px;
+}
+
+.board {
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 70px;
+}
+
+.score {
+  width: 550px;
+  margin: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.button {
+  width: 70px;
+  margin: 0px 30px;
+}
+
+#buttons {
+  justify-content: center;
+}
+
+.scoreboard {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  align-content: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
