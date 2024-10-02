@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
@@ -34,7 +35,7 @@
         <div class="score" id="team2">
             <h1>PAK</h1>
         <div id="over-team2" class="balls">
-            <div class="ball">6</div>
+            <div class="ball"></div>
             <div class="ball"></div>
             <div class="ball"></div>
             <div class="ball"></div>
@@ -51,10 +52,12 @@
     
     </section>
     <section id="buttons">
-    <img  id= "strike" class="button" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-strike-button.png" >
-    <img id="reset" class="button" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png">
+    <img  id= "strike" class="button" onclick="play()" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-strike-button.png" >
+    <img id="reset" class="button" onclick="resetGame()" src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png">
     </section>
 
+
+    <script src="index.js"></script>
   </body>
 
   </html>
